@@ -409,7 +409,13 @@ header {
 }
 @media screen and (max-width: 1100px) {
   .hero img {
-    display: none;
+    width: 450px;
+  }
+  .hero-flex {
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
   }
   .nav-items {
     display: none;
@@ -457,6 +463,9 @@ header {
   }
 }
 @media screen and (max-width: 500px) {
+  .hero img {
+    width: 350px;
+  }
   nav {
     width: auto;
     padding: 8px 10px;
@@ -472,5 +481,10 @@ header {
   }
   .hero-btns {
     justify-content: center;
+  }
+}
+@media screen and (max-width: 350px) {
+  .hero img {
+    width: 280px;
   }
 }
