@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreakOut</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img src="https://www.freeskout.com/img/freeskout.png" alt="logo" />
+        </div>
+        <div class="nav-items">
+          <div style="text-transform: uppercase">Brands</div>
+          <div style="text-transform: uppercase">Influencers</div>
+          <div style="text-transform: uppercase">Pricing</div>
+          <div style="text-transform: uppercase">Blogs</div>
+          <div style="text-transform: uppercase">contact</div>
+        </div>
+        <div class="none" id="navList">
+          <div class="nav-mob-items">
+            <div style="text-transform: uppercase">Brands</div>
+            <div style="text-transform: uppercase">Influencers</div>
+            <div style="text-transform: uppercase">Pricing</div>
+            <div style="text-transform: uppercase">Blogs</div>
+            <div style="text-transform: uppercase">contact</div>
+          </div>
+        </div>
+
+        <div class="hamburger" id="menu">
+          <div class="ham"></div>
+          <div class="ham"></div>
+          <div class="ham"></div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+      <div class="hero-flex">
+        <div class="hero-text">
+          <div>
+            <h1>Discover. Connect.</h1>
+            <h1>Collaborate.</h1>
+          </div>
+          <div>
+            <p>An ecosystem for Social media influencers and Brands.</p>
+          </div>
+          <div class="hero-btns">
+            <button class="btn">I'M AN INFLUENCER</button>
+            <button class="btn">I'M A BRAND</button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://www.freeskout.com/img/top-influencer-profiles/top-3.png"
+            alt="phones"
+          />
+        </div>
+      </div>
+      <div
+        class="custom-shape-divider-bottom-1689790139"
+        style="background-color: transparent"
+      >
+        <div id="stars01"></div>
+        <div id="stars02"></div>
+        <div id="stars03"></div>
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+    <script>
+      document.getElementById("menu").addEventListener("click", () => {
+        document.getElementById("navList").classList.toggle("none");
+      });
+    </script>
+  </body>
+</html>
